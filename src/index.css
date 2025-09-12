@@ -1,5 +1,6 @@
 @import "tailwindcss";
-/* === Animations (เบาๆ ไม่เวียนหัว) === */
+/* @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap"); */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -10,7 +11,9 @@
     transform: translateY(0);
   }
 }
-
+body {
+  font-family: "Kanit", sans-serif;
+}
 @keyframes float {
   0%,
   100% {
@@ -64,4 +67,8 @@
 .bg-dots {
   background-image: radial-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
   background-size: 20px 20px;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
 }
