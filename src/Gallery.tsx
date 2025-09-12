@@ -8,7 +8,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "salt",
       name: "เกลือ/น้ำปลา/ซีอิ๊ว",
-      src: "https://images.unsplash.com/photo-1518716829204-e3f6c8b93b6c?w=500",
+      src: "https://www.publicdomainpictures.net/pictures/210000/velka/salt-in-the-hand.jpg",
       note: "โซเดียมสูง ทำให้บวม/ความดันสูง",
     },
     {
@@ -26,25 +26,25 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "banana",
       name: "กล้วย/มะเขือเทศ/มันฝรั่ง",
-      src: "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?w=500",
+      src: "https://as2.ftcdn.net/jpg/02/99/29/05/220_F_299290543_D7Hg1njhj3SZc2JiYp2hsT3HWk9WIFrL.jpg",
       note: "โพแทสเซียมสูง เสี่ยงต่อหัวใจ",
     },
     {
       id: "nuts",
       name: "ถั่ว/งา/ปลาเล็กปลาน้อย",
-      src: "https://images.unsplash.com/photo-1522444195799-478538b28823?w=500",
+      src: "https://as1.ftcdn.net/jpg/01/39/63/94/220_F_139639492_k7Ql4ajSDUnyWoq25z2d4rtmfFHsHcnr.jpg",
       note: "ฟอสฟอรัสสูง",
     },
-    {
-      id: "cheese",
-      name: "ชีส",
-      src: "https://images.unsplash.com/photo-1589881133595-d5d138cf6e3e?w=500",
-      note: "ฟอสฟอรัสสูง",
-    },
+    // {
+    //   id: "cheese",
+    //   name: "ชีส",
+    //   src: "https://images.unsplash.com/photo-1589881133595-d5d138cf6e3e?w=500",
+    //   note: "ฟอสฟอรัสสูง",
+    // },
     {
       id: "pickled",
       name: "ของหมักดอง",
-      src: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=500",
+      src: "https://as1.ftcdn.net/jpg/05/62/90/12/220_F_562901295_GmQZUPwbf0uGgFNiYOXSNXDCKqeGizKP.jpg",
       note: "มักมีโซเดียมสูง",
     },
   ],
@@ -52,19 +52,19 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "eggwhite",
       name: "ไข่ขาว",
-      src: "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=500",
+      src: "https://as1.ftcdn.net/jpg/01/72/18/04/220_F_172180459_Xkva6JsC2qA2wCUyFHsZSzJpgTp56p2T.jpg",
       note: "โปรตีนคุณภาพดี กินตามแพทย์แนะนำ",
     },
     {
       id: "whitefish",
       name: "ปลาเนื้อขาว",
-      src: "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?w=500",
+      src: "https://as1.ftcdn.net/jpg/02/74/99/08/220_F_274990826_sq3sH3RXWcKRujED9ubZpITBqNfYS6OA.jpg",
       note: "จำกัดปริมาณ",
     },
     {
       id: "tofu",
       name: "เต้าหู้",
-      src: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=500",
+      src: "https://image.shutterstock.com/image-photo/wooden-cutting-board-variety-white-250nw-2521273303.jpg",
       note: "โปรตีนพอเหมาะ",
     },
     {
@@ -82,7 +82,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "watermelon",
       name: "แตงโม",
-      src: "https://images.unsplash.com/photo-1587049633312-d628ae50a8ae?w=500",
+      src: "https://as2.ftcdn.net/jpg/02/27/04/15/220_F_227041521_R30fm1zPGoX3hQeGkGgFAKykT5irrv79.jpg",
       note: "จำกัดปริมาณ",
     },
     {
@@ -96,7 +96,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "ricebowl",
       name: "ข้าวสวย",
-      src: "https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=500",
+      src: "https://image.shutterstock.com/image-photo/cooked-rice-bowl-on-white-250nw-2496825611.jpg",
       note: "พลังงานหลัก (พอเหมาะ)",
     },
     {
@@ -108,13 +108,13 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "cabbage",
       name: "กะหล่ำปลี",
-      src: "https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?w=500",
+      src: "https://as1.ftcdn.net/jpg/03/02/06/08/220_F_302060856_AZt9tspxvpi7n8FeRWFudsC8nX16pnUp.jpg",
       note: "ผักโพแทสเซียมต่ำ",
     },
     {
       id: "beansprout",
       name: "ถั่วงอก",
-      src: "https://images.unsplash.com/photo-1607532941433-304659e8198a?w=500",
+      src: "https://as2.ftcdn.net/jpg/03/01/32/39/220_F_301323913_vsmYhaesng20A4npy3fO3H93C1vSj8RU.jpg",
       note: "ผักโพแทสเซียมต่ำ",
     },
     {
@@ -126,7 +126,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "eggwhitepure",
       name: "ไข่ขาวล้วน",
-      src: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=500",
+      src: "https://as2.ftcdn.net/jpg/11/73/63/99/220_F_1173639985_jGs2LRfQIrhMnlp6DfkPtFJqzCesonDK.jpg",
       note: "โปรตีนดี ฟอสฟอรัสต่ำ",
     },
     {
