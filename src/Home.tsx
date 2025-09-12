@@ -64,7 +64,7 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
               <div className="text-4xl">🏥</div>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent leading-tight">
-              {/* ไฟจราจรโภชนาการ */}
+              ไฟจราจรโภชนาการ
             </h1>
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-700">
               ผู้สูงอายุโรคไต
