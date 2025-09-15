@@ -1,5 +1,5 @@
 // import React from "react";
-
+import teamPhoto from "./img/29192.jpg";
 export type Traffic = "red" | "yellow" | "green";
 
 const colorConfig: Record<
@@ -187,7 +187,7 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
             <div className="text-center space-y-4">
               <div className="relative inline-block">
                 <img
-                  src="src/img/29192.jpg"
+                  src={teamPhoto}
                   alt="ทีมงานสาธารณสุขตำบลบุ่งน้ำเต้า"
                   className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto object-cover h-64 sm:h-80"
                 />
