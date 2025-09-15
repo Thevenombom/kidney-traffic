@@ -8,19 +8,19 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "salt",
       name: "เกลือ/น้ำปลา/ซีอิ๊ว",
-      src: "https://www.publicdomainpictures.net/pictures/210000/velka/salt-in-the-hand.jpg",
+      src: "https://f.ptcdn.info/share/201712/20171207311361771.jpeg?w=200",
       note: "โซเดียมสูง ทำให้บวม/ความดันสูง",
     },
     {
       id: "instant",
       name: "บะหมี่กึ่งสำเร็จรูป",
-      src: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=500",
+      src: "https://img.pikbest.com/png-images/qianku/authentic-and-delicious-instant-noodles_2322909.png!bw700",
       note: "เครื่องปรุงโซเดียมสูง",
     },
     {
       id: "processed",
       name: "ไส้กรอก/แฮม/เบคอน",
-      src: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500",
+      src: "http://images.axa-contento-118412.eu/ktaxav2/cb4acd41-a19b-4439-a07e-56a379eae523_KTAXA02+-+MAY22_desktop.jpg?auto=compress,format",
       note: "อาหารแปรรูป โซเดียมสูง",
     },
     {
@@ -32,7 +32,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "nuts",
       name: "ถั่ว/งา/ปลาเล็กปลาน้อย",
-      src: "https://as1.ftcdn.net/jpg/01/39/63/94/220_F_139639492_k7Ql4ajSDUnyWoq25z2d4rtmfFHsHcnr.jpg",
+      src: "https://png.pngtree.com/png-clipart/20231002/original/pngtree-assorted-nuts-raw-picture-image_13074983.png",
       note: "ฟอสฟอรัสสูง",
     },
     // {
@@ -44,7 +44,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "pickled",
       name: "ของหมักดอง",
-      src: "https://as1.ftcdn.net/jpg/05/62/90/12/220_F_562901295_GmQZUPwbf0uGgFNiYOXSNXDCKqeGizKP.jpg",
+      src: "https://q.lnwfile.com/_/q/_raw/s7/j2/s9.jpg",
       note: "มักมีโซเดียมสูง",
     },
   ],
