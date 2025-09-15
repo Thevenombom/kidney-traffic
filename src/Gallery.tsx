@@ -26,7 +26,7 @@ const PICS: Record<Traffic, FoodPic[]> = {
     {
       id: "banana",
       name: "กล้วย/มะเขือเทศ/มันฝรั่ง",
-      src: "https://as2.ftcdn.net/jpg/02/99/29/05/220_F_299290543_D7Hg1njhj3SZc2JiYp2hsT3HWk9WIFrL.jpg",
+      src: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-b19c-61f4-9a61-6f021f5ec2d5/raw?se=2025-09-15T09%3A58%3A16Z&sp=r&sv=2024-08-04&sr=b&scid=61afa36a-c50d-5a07-8045-f7d3c090e2f4&skoid=03727f49-62d3-42ac-8350-1c0e6559d238&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T23%3A33%3A47Z&ske=2025-09-15T23%3A33%3A47Z&sks=b&skv=2024-08-04&sig=5hEyakDt8KAPH7gCh5rK5wI74ZhEv2/YynxaURgPpNY%3D",
       note: "โพแทสเซียมสูง เสี่ยงต่อหัวใจ",
     },
     {
