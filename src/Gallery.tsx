@@ -19,8 +19,8 @@ const PICS: Record<Traffic, FoodPic[]> = {
     },
     {
       id: "processed",
-      name: "ไส้กรอก/แฮม/เบคอน",
-      src: "http://images.axa-contento-118412.eu/ktaxav2/cb4acd41-a19b-4439-a07e-56a379eae523_KTAXA02+-+MAY22_desktop.jpg?auto=compress,format",
+      name: "ไส้กรอก",
+      src: "https://www.maekai.co.th/wp-content/uploads/2024/11/DSC06933S.jpg",
       note: "อาหารแปรรูป โซเดียมสูง",
     },
     {

@@ -55,7 +55,6 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 relative overflow-hidden">
       <div className="absolute inset-0 bg-circles"></div>
-      {/* <div className="relative z-10 container mx-auto px-4 py-8 max-w-4xl"></div> */}
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
         <div className="container mx-auto px-4 py-8 max-w-4xl">
           {/* Header with enhanced styling */}
@@ -63,8 +62,8 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
             <div className="inline-block p-4 bg-white/60 backdrop-blur-sm rounded-full shadow-lg mb-4">
               <div className="text-4xl">🏥</div>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent leading-tight">
-              ไฟจราจรโภชนาการ
+            <h1 className="text-2xl sm:text-3xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent leading-tight">
+              อาหารสามสีตำบลบุ่งน้ำเต้า
             </h1>
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-700">
               ผู้สูงอายุโรคไต
@@ -97,24 +96,20 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
                       ? "#f59e0b, #eab308"
                       : "#10b981, #059669"
                   })`,
-                  // สร้าง Stagger ทีละปุ่ม
                   animationDelay: `${index * 120}ms`,
                 }}
               >
-                {/* พื้นหลังเอียงเดิม ให้ลอย */}
                 <div
                   className="absolute inset-0 bg-white/10 transform -skew-y-6 scale-150
                   group-hover:scale-100 transition-transform duration-700
                   animate-[float_5s_ease-in-out_infinite]"
                 ></div>
 
-                {/* เนื้อหา */}
                 <div className="relative z-10 flex flex-col items-center gap-4">
                   <Icon t={t} />
                   <span className="text-center leading-tight">{title[t]}</span>
                 </div>
 
-                {/* แถบแวววาว (shimmer) */}
                 <div className="pointer-events-none absolute inset-0 overflow-hidden">
                   <div
                     className="absolute inset-y-0 left-0 w-1/3 bg-white/25 blur-md
@@ -126,7 +121,7 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
           </div>
 
           {/* Info section with glassmorphism */}
-          <div className="bg-white/70 backdrop-blur-lg rounded-3xl p-6 sm:p-8 shadow-xl border border-white/50">
+          <div className="bg-white/70 backdrop-blur-lg rounded-3xl p-6 sm:p-8 shadow-xl border border-white/50 mb-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="p-3 bg-gradient-to-r from-blue-500 to-green-500 rounded-full">
                 <span className="text-white text-xl">📋</span>
@@ -182,8 +177,36 @@ export default function Home({ onSelect }: { onSelect: (t: Traffic) => void }) {
 
             <div className="mt-6 p-4 bg-gradient-to-r from-gray-100 to-gray-200 rounded-2xl border-l-4 border-blue-500">
               <p className="text-sm text-gray-600 italic">
-                ⚠️ ข้อมูลทั่วไป ไม่แทนคำแนะนำของแพทย์/โภชนากร
+                ⚠️ ข้อมูลทั่วไป ไไม่แทนคำแนะนำของแพทย์/โภชนากร
               </p>
+            </div>
+          </div>
+
+          {/* Team Section with the uploaded photo */}
+          <div className="bg-white/70 backdrop-blur-lg rounded-3xl p-6 sm:p-8 shadow-xl border border-white/50">
+            <div className="text-center space-y-4">
+              <div className="relative inline-block">
+                <img
+                  src="src/img/29192.jpg"
+                  alt="ทีมงานสาธารณสุขตำบลบุ่งน้ำเต้า"
+                  className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto object-cover h-64 sm:h-80"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-2xl"></div>
+              </div>
+
+              <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-4">
+                <p className="text-sm text-gray-600">
+                  ด้วยเกล้าด้วยกระหม่อม ขอเดชะ ข้าพระพุทธเจ้า
+                  โรงพยาบาลส่งเสริมสุขภาพตำบลบุ่งน้ำเต้า
+                </p>
+                <div className="flex items-center justify-center gap-2 mt-3">
+                  <span className="inline-block w-2 h-2 bg-green-500 rounded-full"></span>
+                  <span className="text-xs text-gray-500">
+                    พร้อมดูแลสุขภาพของชุมชน
+                  </span>
+                  <span className="inline-block w-2 h-2 bg-blue-500 rounded-full"></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
